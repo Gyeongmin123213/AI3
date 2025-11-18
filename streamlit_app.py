@@ -76,13 +76,13 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 
      labels[1]: {
        "texts": ["미식 축구는", "럭비공을 들고", "공을 상대방 진영의 끝에 가져다 놓는 스포츠입니다"],
-       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fkorean%2Farticles%2Fc0408xk7j8xo&psig=AOvVaw0u0xBYCpBmwVoL0_eCnzFd&ust=1763536046874000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNi2wOiR-5ADFQAAAAAdAAAAABAE"],
+       "images": ["https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/9c3b/live/9db75fd0-6417-11ee-a0c8-ab8a89e71afa.jpg.webp"],
        "videos": ["https://www.youtube.com/watch?v=-9pUndyVf1g"]
      },
 
   labels[2]: {
        "texts": ["축구는", "11명이 뛰며", "골을 넣는 스포츠입니다"],
-       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDGaBYf7zVe3%2F&psig=AOvVaw2zlc2566CKWMO1MtlEH4pa&ust=1763536415912000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIinoZmT-5ADFQAAAAAdAAAAABAE"],
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtP7jGWlbRGz2uHmoAd5idz09W5YZbjr1l8w&s"],
        "videos": ["https://www.youtube.com/watch?v=IA894BA4MN4"]
      },
 }
