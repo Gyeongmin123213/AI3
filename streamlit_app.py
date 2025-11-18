@@ -81,7 +81,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      },
 
   labels[2]: {
-       "texts": ["축구는", "11명이 뛰며", "골을 넣는 스포츠입니다"],16
+       "texts": ["축구는", "11명이 뛰며", "골을 넣는 스포츠입니다"],
        "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDGaBYf7zVe3%2F&psig=AOvVaw2zlc2566CKWMO1MtlEH4pa&ust=1763536415912000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIinoZmT-5ADFQAAAAAdAAAAABAE"],
        "videos": ["https://www.youtube.com/watch?v=IA894BA4MN4"]
      },
