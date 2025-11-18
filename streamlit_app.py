@@ -68,42 +68,12 @@ st.markdown("---")
 # 각 라벨당 최대 3개씩 표시됩니다.
 # ======================
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
-    # 예)
-    # "짬뽕": {
-    #   "texts": ["농구,축구,미식축구는", "모두가 즐기는", "스포츠입니다FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1_qIcBvkpxeZVgZfpaGAqqV2tyVlL3LHi")
-MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
-
-@st.cache_resource
-def load_model_from_drive(file_id: str, output_path: str):
-    if not os.path.exists(output_path):
-        url = f"https://drive.google.com/uc?id={file_id}"
-        gdown.download(url, output_path, quiet=False)
-    return load_learner(output_path, cpu=True)
-
-with st.spinner("🤖 모델 로드 중..."):
-    learner = load_model_from_drive(FILE_ID, MODEL_PATH)
-st.success("✅ 모델 로드 완료")
-
-labels = [str(x) for x in learner.dls.vocab]
-st.write(f"**분류 가능한 항목:** `{', '.join(labels)}`")
-st.markdown("---")
-
-# ======================
-# 라벨 이름 매핑: 여기를 채우세요!
-# 각 라벨당 최대 3개씩 표시됩니다.
-# ======================
-CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
-    # 예)
-    # "짬뽕": {
-    #   "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
-    #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
-    #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
-    # },
      labels[0]: {
        "texts": ["농구,축구,미식축구는", "우리 모두의", "스포츠입니다"],
        "images": ["https://cdn.mhnse.com/news/photo/202312/244318_257984_4115.jpg", "https://www.chosun.com/resizer/v2/CKYWLA4A3V44RDBJYKLDVDXQUI.jpg?auth=a68b603cfa2c836d062056d6a6f715a21f5977a19f10d29c14b375060a2ae41f&width=616"],
        "videos": ["https://youtu.be/nFjvopKvqU0?si=BavnVy7JMJlwk4Ev"]
      },
+}
 
 # ======================
 # 유틸
