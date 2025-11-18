@@ -71,7 +71,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      labels[0]: {
        "texts": ["농구는", "림에", "골을 넣는 스포츠입니다"],
        "images": ["https://cdn.mhnse.com/news/photo/202312/244318_257984_4115.jpg", "https://www.chosun.com/resizer/v2/CKYWLA4A3V44RDBJYKLDVDXQUI.jpg?auth=a68b603cfa2c836d062056d6a6f715a21f5977a19f10d29c14b375060a2ae41f&width=616"],
-       "videos": [https://www.youtube.com/watch?v=K9OUm9tMx58]
+       "videos": ["https://www.youtube.com/watch?v=K9OUm9tMx58"]
      },
 
      labels[1]: {
