@@ -69,9 +69,21 @@ st.markdown("---")
 # ======================
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
      labels[0]: {
-       "texts": ["농구,축구,미식축구는", "우리 모두의", "스포츠입니다"],
+       "texts": ["농구는", "림에", "골을 넣는 스포츠입니다"],
        "images": ["https://cdn.mhnse.com/news/photo/202312/244318_257984_4115.jpg", "https://www.chosun.com/resizer/v2/CKYWLA4A3V44RDBJYKLDVDXQUI.jpg?auth=a68b603cfa2c836d062056d6a6f715a21f5977a19f10d29c14b375060a2ae41f&width=616"],
-       "videos": ["https://youtu.be/nFjvopKvqU0?si=BavnVy7JMJlwk4Ev"]
+       "videos": [https://www.youtube.com/watch?v=K9OUm9tMx58]
+     },
+
+     labels[1]: {
+       "texts": ["미식 축구는", "럭비공을 들고", "공을 상대방 진영의 끝에 가져다 놓는 스포츠입니다"],
+       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bbc.com%2Fkorean%2Farticles%2Fc0408xk7j8xo&psig=AOvVaw0u0xBYCpBmwVoL0_eCnzFd&ust=1763536046874000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNi2wOiR-5ADFQAAAAAdAAAAABAE"],
+       "videos": ["https://www.youtube.com/watch?v=-9pUndyVf1g"]
+     },
+
+  labels[2]: {
+       "texts": ["축구는", "11명이 뛰며", "골을 넣는 스포츠입니다"],16
+       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.instagram.com%2Fp%2FDGaBYf7zVe3%2F&psig=AOvVaw2zlc2566CKWMO1MtlEH4pa&ust=1763536415912000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIinoZmT-5ADFQAAAAAdAAAAABAE"],
+       "videos": ["https://www.youtube.com/watch?v=IA894BA4MN4"]
      },
 }
 
